@@ -50,6 +50,14 @@
 		1E02BA0E24CC96CC00282565 /* KeyboardNotificationUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0724CC96CB00282565 /* KeyboardNotificationUserInfo.swift */; };
 		1E02BA0F24CC96CC00282565 /* Date + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0824CC96CC00282565 /* Date + Extensions.swift */; };
 		1E02BA1024CC96CC00282565 /* Collection + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0924CC96CC00282565 /* Collection + Extensions.swift */; };
+		1E02BA1B24CC980E00282565 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA1224CC980E00282565 /* DataManager.swift */; };
+		1E02BA1C24CC980E00282565 /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA1324CC980E00282565 /* PersistentManager.swift */; };
+		1E02BA1D24CC980E00282565 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA1524CC980E00282565 /* NetworkResponse.swift */; };
+		1E02BA1E24CC980E00282565 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA1624CC980E00282565 /* NetworkManager.swift */; };
+		1E02BA1F24CC980E00282565 /* NetworkParsedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA1724CC980E00282565 /* NetworkParsedResult.swift */; };
+		1E02BA2024CC980E00282565 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA1824CC980E00282565 /* NetworkError.swift */; };
+		1E02BA2124CC980E00282565 /* ApplicationAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA1924CC980E00282565 /* ApplicationAppearanceManager.swift */; };
+		1E02BA2224CC980E00282565 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA1A24CC980E00282565 /* Parser.swift */; };
 		1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6845E24CC829500032329 /* AppDelegate.swift */; };
 		1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6846024CC829500032329 /* SceneDelegate.swift */; };
 		1EF6846824CC829A00032329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6846724CC829A00032329 /* Assets.xcassets */; };
@@ -100,6 +108,14 @@
 		1E02BA0724CC96CB00282565 /* KeyboardNotificationUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotificationUserInfo.swift; sourceTree = "<group>"; };
 		1E02BA0824CC96CC00282565 /* Date + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date + Extensions.swift"; sourceTree = "<group>"; };
 		1E02BA0924CC96CC00282565 /* Collection + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection + Extensions.swift"; sourceTree = "<group>"; };
+		1E02BA1224CC980E00282565 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1E02BA1324CC980E00282565 /* PersistentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
+		1E02BA1524CC980E00282565 /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		1E02BA1624CC980E00282565 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1E02BA1724CC980E00282565 /* NetworkParsedResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkParsedResult.swift; sourceTree = "<group>"; };
+		1E02BA1824CC980E00282565 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		1E02BA1924CC980E00282565 /* ApplicationAppearanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAppearanceManager.swift; sourceTree = "<group>"; };
+		1E02BA1A24CC980E00282565 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		1EF6845B24CC829500032329 /* GitHub+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF6845E24CC829500032329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF6846024CC829500032329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,9 +160,9 @@
 		1E02B9D424CC943300282565 /* View Controllers  */ = {
 			isa = PBXGroup;
 			children = (
-				1E02B9D924CC948300282565 /* Favourites  */,
 				1E02B9D524CC944300282565 /* MainTabBarController.swift */,
 				1E02B9D724CC945E00282565 /* SearchViewController.swift */,
+				1E02B9D924CC948300282565 /* Favourites  */,
 			);
 			path = "View Controllers ";
 			sourceTree = "<group>";
@@ -199,6 +215,29 @@
 			path = StackView;
 			sourceTree = "<group>";
 		};
+		1E02BA1124CC980E00282565 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1E02BA1424CC980E00282565 /* Network */,
+				1E02BA1224CC980E00282565 /* DataManager.swift */,
+				1E02BA1324CC980E00282565 /* PersistentManager.swift */,
+				1E02BA1924CC980E00282565 /* ApplicationAppearanceManager.swift */,
+				1E02BA1A24CC980E00282565 /* Parser.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1E02BA1424CC980E00282565 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1E02BA1524CC980E00282565 /* NetworkResponse.swift */,
+				1E02BA1624CC980E00282565 /* NetworkManager.swift */,
+				1E02BA1724CC980E00282565 /* NetworkParsedResult.swift */,
+				1E02BA1824CC980E00282565 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		1EF6845224CC829500032329 = {
 			isa = PBXGroup;
 			children = (
@@ -218,10 +257,11 @@
 		1EF6845D24CC829500032329 /* GitHub+ */ = {
 			isa = PBXGroup;
 			children = (
-				1E02B9DC24CC951800282565 /* Model */,
-				1E02B9D424CC943300282565 /* View Controllers  */,
 				1EF6845E24CC829500032329 /* AppDelegate.swift */,
 				1EF6846024CC829500032329 /* SceneDelegate.swift */,
+				1E02B9DC24CC951800282565 /* Model */,
+				1E02BA1124CC980E00282565 /* Managers */,
+				1E02B9D424CC943300282565 /* View Controllers  */,
 				1E02B9B524CC905200282565 /* Custom UI Components */,
 				1EF6847F24CC8F8200032329 /* Helpers */,
 			);
@@ -316,13 +356,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E02BA2024CC980E00282565 /* NetworkError.swift in Sources */,
 				1E02B9E224CC951800282565 /* GithubFollower.swift in Sources */,
 				1E02BA0224CC962900282565 /* UIBezierPath + Extensions.swift in Sources */,
 				1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */,
 				1E02B9F424CC962900282565 /* UICollectionViewCell + Extensions.swift in Sources */,
 				1E02B9BF24CC909F00282565 /* GFButton.swift in Sources */,
+				1E02BA1B24CC980E00282565 /* DataManager.swift in Sources */,
 				1E02B9F824CC962900282565 /* CustomStackView.swift in Sources */,
 				1E02B9D624CC944300282565 /* MainTabBarController.swift in Sources */,
+				1E02BA1F24CC980E00282565 /* NetworkParsedResult.swift in Sources */,
 				1E02B9D024CC935600282565 /* GFImages.swift in Sources */,
 				1E02B9FC24CC962900282565 /* CAShapeLayer + Extensions.swift in Sources */,
 				1E02B9E024CC951800282565 /* GithubUser.swift in Sources */,
@@ -330,11 +373,13 @@
 				1E02B9C224CC909F00282565 /* GFCircleButton.swift in Sources */,
 				1E02B9C324CC909F00282565 /* GFFavoriteButton.swift in Sources */,
 				1E02B9BE24CC909F00282565 /* GFLabel.swift in Sources */,
+				1E02BA2224CC980E00282565 /* Parser.swift in Sources */,
 				1E02B9C924CC91FB00282565 /* GFCollectionView.swift in Sources */,
 				1E02BA0024CC962900282565 /* UICollectionView + Extensions.swift in Sources */,
 				1E02B9FD24CC962900282565 /* UITableView + Extensions.swift in Sources */,
 				1E02BA0A24CC96CC00282565 /* URL + Extensions.swift in Sources */,
 				1E02B9CA24CC91FB00282565 /* GFTextField.swift in Sources */,
+				1E02BA1C24CC980E00282565 /* PersistentManager.swift in Sources */,
 				1E02B9F624CC962900282565 /* CGRect + Extensions.swift in Sources */,
 				1E02B9F924CC962900282565 /* HStackView.swift in Sources */,
 				1E02B9C124CC909F00282565 /* GFLoadingOverlayView.swift in Sources */,
@@ -345,16 +390,19 @@
 				1E02BA0B24CC96CC00282565 /* HTTPURLResponse + Extensions.swift in Sources */,
 				1E02B9FF24CC962900282565 /* UITableViewCell + Extensions.swift in Sources */,
 				1E02B9CB24CC91FB00282565 /* GFErrorMessageView.swift in Sources */,
+				1E02BA1E24CC980E00282565 /* NetworkManager.swift in Sources */,
 				1E02B9C024CC909F00282565 /* GFEmptyStateView.swift in Sources */,
 				1E02B9C824CC91FB00282565 /* GFImageView.swift in Sources */,
 				1E02B9D224CC935600282565 /* GFViewController.swift in Sources */,
 				1E02BA0124CC962900282565 /* UIView + Extensions.swift in Sources */,
 				1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */,
 				1E02BA1024CC96CC00282565 /* Collection + Extensions.swift in Sources */,
+				1E02BA2124CC980E00282565 /* ApplicationAppearanceManager.swift in Sources */,
 				1E02BA0D24CC96CC00282565 /* String + Extensions.swift in Sources */,
 				1E02BA0C24CC96CC00282565 /* NSAttributedString + Extensions.swift in Sources */,
 				1E02B9F724CC962900282565 /* CGPath + Extensions.swift in Sources */,
 				1E02B9FB24CC962900282565 /* CGSize + Extensions.swift in Sources */,
+				1E02BA1D24CC980E00282565 /* NetworkResponse.swift in Sources */,
 				1E02B9DB24CC949800282565 /* FavoritesViewController.swift in Sources */,
 				1E02BA0F24CC96CC00282565 /* Date + Extensions.swift in Sources */,
 				1E02BA0E24CC96CC00282565 /* KeyboardNotificationUserInfo.swift in Sources */,
