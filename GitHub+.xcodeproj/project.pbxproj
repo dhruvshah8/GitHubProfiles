@@ -14,6 +14,10 @@
 		1E02B9C124CC909F00282565 /* GFLoadingOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9BA24CC909F00282565 /* GFLoadingOverlayView.swift */; };
 		1E02B9C224CC909F00282565 /* GFCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9BB24CC909F00282565 /* GFCircleButton.swift */; };
 		1E02B9C324CC909F00282565 /* GFFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9BC24CC909F00282565 /* GFFavoriteButton.swift */; };
+		1E02B9C824CC91FB00282565 /* GFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9C424CC91FB00282565 /* GFImageView.swift */; };
+		1E02B9C924CC91FB00282565 /* GFCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9C524CC91FB00282565 /* GFCollectionView.swift */; };
+		1E02B9CA24CC91FB00282565 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9C624CC91FB00282565 /* GFTextField.swift */; };
+		1E02B9CB24CC91FB00282565 /* GFErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9C724CC91FB00282565 /* GFErrorMessageView.swift */; };
 		1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6845E24CC829500032329 /* AppDelegate.swift */; };
 		1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6846024CC829500032329 /* SceneDelegate.swift */; };
 		1EF6846824CC829A00032329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6846724CC829A00032329 /* Assets.xcassets */; };
@@ -28,6 +32,10 @@
 		1E02B9BA24CC909F00282565 /* GFLoadingOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFLoadingOverlayView.swift; sourceTree = "<group>"; };
 		1E02B9BB24CC909F00282565 /* GFCircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFCircleButton.swift; sourceTree = "<group>"; };
 		1E02B9BC24CC909F00282565 /* GFFavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFFavoriteButton.swift; sourceTree = "<group>"; };
+		1E02B9C424CC91FB00282565 /* GFImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFImageView.swift; sourceTree = "<group>"; };
+		1E02B9C524CC91FB00282565 /* GFCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFCollectionView.swift; sourceTree = "<group>"; };
+		1E02B9C624CC91FB00282565 /* GFTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		1E02B9C724CC91FB00282565 /* GFErrorMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFErrorMessageView.swift; sourceTree = "<group>"; };
 		1EF6845B24CC829500032329 /* GitHub+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF6845E24CC829500032329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF6846024CC829500032329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +58,10 @@
 		1E02B9B524CC905200282565 /* Custom UI Components */ = {
 			isa = PBXGroup;
 			children = (
+				1E02B9C524CC91FB00282565 /* GFCollectionView.swift */,
+				1E02B9C724CC91FB00282565 /* GFErrorMessageView.swift */,
+				1E02B9C424CC91FB00282565 /* GFImageView.swift */,
+				1E02B9C624CC91FB00282565 /* GFTextField.swift */,
 				1E02B9B824CC909F00282565 /* GFButton.swift */,
 				1E02B9BB24CC909F00282565 /* GFCircleButton.swift */,
 				1E02B9B624CC909E00282565 /* GFCustomPathButton.swift */,
@@ -173,8 +185,12 @@
 				1E02B9C224CC909F00282565 /* GFCircleButton.swift in Sources */,
 				1E02B9C324CC909F00282565 /* GFFavoriteButton.swift in Sources */,
 				1E02B9BE24CC909F00282565 /* GFLabel.swift in Sources */,
+				1E02B9C924CC91FB00282565 /* GFCollectionView.swift in Sources */,
+				1E02B9CA24CC91FB00282565 /* GFTextField.swift in Sources */,
 				1E02B9C124CC909F00282565 /* GFLoadingOverlayView.swift in Sources */,
+				1E02B9CB24CC91FB00282565 /* GFErrorMessageView.swift in Sources */,
 				1E02B9C024CC909F00282565 /* GFEmptyStateView.swift in Sources */,
+				1E02B9C824CC91FB00282565 /* GFImageView.swift in Sources */,
 				1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */,
 				1E02B9BD24CC909F00282565 /* GFCustomPathButton.swift in Sources */,
 			);
