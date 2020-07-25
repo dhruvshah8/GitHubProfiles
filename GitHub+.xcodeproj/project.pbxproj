@@ -28,6 +28,21 @@
 		1E02B9E024CC951800282565 /* GithubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9DD24CC951800282565 /* GithubUser.swift */; };
 		1E02B9E124CC951800282565 /* GithubProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9DE24CC951800282565 /* GithubProfile.swift */; };
 		1E02B9E224CC951800282565 /* GithubFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9DF24CC951800282565 /* GithubFollower.swift */; };
+		1E02B9F424CC962900282565 /* UICollectionViewCell + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9E424CC962900282565 /* UICollectionViewCell + Extensions.swift */; };
+		1E02B9F524CC962900282565 /* CALayer + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9E524CC962900282565 /* CALayer + Extensions.swift */; };
+		1E02B9F624CC962900282565 /* CGRect + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9E624CC962900282565 /* CGRect + Extensions.swift */; };
+		1E02B9F724CC962900282565 /* CGPath + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9E724CC962900282565 /* CGPath + Extensions.swift */; };
+		1E02B9F824CC962900282565 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9E924CC962900282565 /* CustomStackView.swift */; };
+		1E02B9F924CC962900282565 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9EA24CC962900282565 /* HStackView.swift */; };
+		1E02B9FA24CC962900282565 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9EB24CC962900282565 /* VStackView.swift */; };
+		1E02B9FB24CC962900282565 /* CGSize + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9EC24CC962900282565 /* CGSize + Extensions.swift */; };
+		1E02B9FC24CC962900282565 /* CAShapeLayer + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9ED24CC962900282565 /* CAShapeLayer + Extensions.swift */; };
+		1E02B9FD24CC962900282565 /* UITableView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9EE24CC962900282565 /* UITableView + Extensions.swift */; };
+		1E02B9FE24CC962900282565 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9EF24CC962900282565 /* SpacerView.swift */; };
+		1E02B9FF24CC962900282565 /* UITableViewCell + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9F024CC962900282565 /* UITableViewCell + Extensions.swift */; };
+		1E02BA0024CC962900282565 /* UICollectionView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9F124CC962900282565 /* UICollectionView + Extensions.swift */; };
+		1E02BA0124CC962900282565 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9F224CC962900282565 /* UIView + Extensions.swift */; };
+		1E02BA0224CC962900282565 /* UIBezierPath + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9F324CC962900282565 /* UIBezierPath + Extensions.swift */; };
 		1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6845E24CC829500032329 /* AppDelegate.swift */; };
 		1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6846024CC829500032329 /* SceneDelegate.swift */; };
 		1EF6846824CC829A00032329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6846724CC829A00032329 /* Assets.xcassets */; };
@@ -56,6 +71,21 @@
 		1E02B9DD24CC951800282565 /* GithubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUser.swift; sourceTree = "<group>"; };
 		1E02B9DE24CC951800282565 /* GithubProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubProfile.swift; sourceTree = "<group>"; };
 		1E02B9DF24CC951800282565 /* GithubFollower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubFollower.swift; sourceTree = "<group>"; };
+		1E02B9E424CC962900282565 /* UICollectionViewCell + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9E524CC962900282565 /* CALayer + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9E624CC962900282565 /* CGRect + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9E724CC962900282565 /* CGPath + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPath + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9E924CC962900282565 /* CustomStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		1E02B9EA24CC962900282565 /* HStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		1E02B9EB24CC962900282565 /* VStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
+		1E02B9EC24CC962900282565 /* CGSize + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9ED24CC962900282565 /* CAShapeLayer + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9EE24CC962900282565 /* UITableView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9EF24CC962900282565 /* SpacerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		1E02B9F024CC962900282565 /* UITableViewCell + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9F124CC962900282565 /* UICollectionView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9F224CC962900282565 /* UIView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		1E02B9F324CC962900282565 /* UIBezierPath + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath + Extensions.swift"; sourceTree = "<group>"; };
 		1EF6845B24CC829500032329 /* GitHub+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF6845E24CC829500032329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF6846024CC829500032329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +155,36 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		1E02B9E324CC962900282565 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1E02B9E824CC962900282565 /* StackView */,
+				1E02B9E424CC962900282565 /* UICollectionViewCell + Extensions.swift */,
+				1E02B9E524CC962900282565 /* CALayer + Extensions.swift */,
+				1E02B9E624CC962900282565 /* CGRect + Extensions.swift */,
+				1E02B9E724CC962900282565 /* CGPath + Extensions.swift */,
+				1E02B9EC24CC962900282565 /* CGSize + Extensions.swift */,
+				1E02B9ED24CC962900282565 /* CAShapeLayer + Extensions.swift */,
+				1E02B9EE24CC962900282565 /* UITableView + Extensions.swift */,
+				1E02B9EF24CC962900282565 /* SpacerView.swift */,
+				1E02B9F024CC962900282565 /* UITableViewCell + Extensions.swift */,
+				1E02B9F124CC962900282565 /* UICollectionView + Extensions.swift */,
+				1E02B9F224CC962900282565 /* UIView + Extensions.swift */,
+				1E02B9F324CC962900282565 /* UIBezierPath + Extensions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1E02B9E824CC962900282565 /* StackView */ = {
+			isa = PBXGroup;
+			children = (
+				1E02B9E924CC962900282565 /* CustomStackView.swift */,
+				1E02B9EA24CC962900282565 /* HStackView.swift */,
+				1E02B9EB24CC962900282565 /* VStackView.swift */,
+			);
+			path = StackView;
+			sourceTree = "<group>";
+		};
 		1EF6845224CC829500032329 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +217,7 @@
 		1EF6847F24CC8F8200032329 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1E02B9E324CC962900282565 /* UI */,
 				1EF6846724CC829A00032329 /* Assets.xcassets */,
 				1EF6846924CC829A00032329 /* LaunchScreen.storyboard */,
 				1EF6846C24CC829A00032329 /* Info.plist */,
@@ -235,28 +296,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E02B9E224CC951800282565 /* GithubFollower.swift in Sources */,
+				1E02BA0224CC962900282565 /* UIBezierPath + Extensions.swift in Sources */,
 				1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */,
+				1E02B9F424CC962900282565 /* UICollectionViewCell + Extensions.swift in Sources */,
 				1E02B9BF24CC909F00282565 /* GFButton.swift in Sources */,
+				1E02B9F824CC962900282565 /* CustomStackView.swift in Sources */,
 				1E02B9D624CC944300282565 /* MainTabBarController.swift in Sources */,
 				1E02B9D024CC935600282565 /* GFImages.swift in Sources */,
+				1E02B9FC24CC962900282565 /* CAShapeLayer + Extensions.swift in Sources */,
 				1E02B9E024CC951800282565 /* GithubUser.swift in Sources */,
 				1E02B9D824CC945E00282565 /* SearchViewController.swift in Sources */,
 				1E02B9C224CC909F00282565 /* GFCircleButton.swift in Sources */,
 				1E02B9C324CC909F00282565 /* GFFavoriteButton.swift in Sources */,
 				1E02B9BE24CC909F00282565 /* GFLabel.swift in Sources */,
 				1E02B9C924CC91FB00282565 /* GFCollectionView.swift in Sources */,
+				1E02BA0024CC962900282565 /* UICollectionView + Extensions.swift in Sources */,
+				1E02B9FD24CC962900282565 /* UITableView + Extensions.swift in Sources */,
 				1E02B9CA24CC91FB00282565 /* GFTextField.swift in Sources */,
+				1E02B9F624CC962900282565 /* CGRect + Extensions.swift in Sources */,
+				1E02B9F924CC962900282565 /* HStackView.swift in Sources */,
 				1E02B9C124CC909F00282565 /* GFLoadingOverlayView.swift in Sources */,
 				1E02B9E124CC951800282565 /* GithubProfile.swift in Sources */,
+				1E02B9FA24CC962900282565 /* VStackView.swift in Sources */,
 				1E02B9D324CC935600282565 /* GFColors.swift in Sources */,
 				1E02B9D124CC935600282565 /* GFBezierPaths.swift in Sources */,
+				1E02B9FF24CC962900282565 /* UITableViewCell + Extensions.swift in Sources */,
 				1E02B9CB24CC91FB00282565 /* GFErrorMessageView.swift in Sources */,
 				1E02B9C024CC909F00282565 /* GFEmptyStateView.swift in Sources */,
 				1E02B9C824CC91FB00282565 /* GFImageView.swift in Sources */,
 				1E02B9D224CC935600282565 /* GFViewController.swift in Sources */,
+				1E02BA0124CC962900282565 /* UIView + Extensions.swift in Sources */,
 				1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */,
+				1E02B9F724CC962900282565 /* CGPath + Extensions.swift in Sources */,
+				1E02B9FB24CC962900282565 /* CGSize + Extensions.swift in Sources */,
 				1E02B9DB24CC949800282565 /* FavoritesViewController.swift in Sources */,
 				1E02B9BD24CC909F00282565 /* GFCustomPathButton.swift in Sources */,
+				1E02B9FE24CC962900282565 /* SpacerView.swift in Sources */,
+				1E02B9F524CC962900282565 /* CALayer + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
