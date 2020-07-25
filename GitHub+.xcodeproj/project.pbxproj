@@ -25,6 +25,9 @@
 		1E02B9D624CC944300282565 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9D524CC944300282565 /* MainTabBarController.swift */; };
 		1E02B9D824CC945E00282565 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9D724CC945E00282565 /* SearchViewController.swift */; };
 		1E02B9DB24CC949800282565 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9DA24CC949800282565 /* FavoritesViewController.swift */; };
+		1E02B9E024CC951800282565 /* GithubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9DD24CC951800282565 /* GithubUser.swift */; };
+		1E02B9E124CC951800282565 /* GithubProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9DE24CC951800282565 /* GithubProfile.swift */; };
+		1E02B9E224CC951800282565 /* GithubFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9DF24CC951800282565 /* GithubFollower.swift */; };
 		1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6845E24CC829500032329 /* AppDelegate.swift */; };
 		1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6846024CC829500032329 /* SceneDelegate.swift */; };
 		1EF6846824CC829A00032329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6846724CC829A00032329 /* Assets.xcassets */; };
@@ -50,6 +53,9 @@
 		1E02B9D524CC944300282565 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		1E02B9D724CC945E00282565 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1E02B9DA24CC949800282565 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		1E02B9DD24CC951800282565 /* GithubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUser.swift; sourceTree = "<group>"; };
+		1E02B9DE24CC951800282565 /* GithubProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubProfile.swift; sourceTree = "<group>"; };
+		1E02B9DF24CC951800282565 /* GithubFollower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubFollower.swift; sourceTree = "<group>"; };
 		1EF6845B24CC829500032329 /* GitHub+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF6845E24CC829500032329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF6846024CC829500032329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,16 @@
 			path = "Favourites ";
 			sourceTree = "<group>";
 		};
+		1E02B9DC24CC951800282565 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E02B9DD24CC951800282565 /* GithubUser.swift */,
+				1E02B9DE24CC951800282565 /* GithubProfile.swift */,
+				1E02B9DF24CC951800282565 /* GithubFollower.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1EF6845224CC829500032329 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +144,7 @@
 		1EF6845D24CC829500032329 /* GitHub+ */ = {
 			isa = PBXGroup;
 			children = (
+				1E02B9DC24CC951800282565 /* Model */,
 				1E02B9D424CC943300282565 /* View Controllers  */,
 				1EF6845E24CC829500032329 /* AppDelegate.swift */,
 				1EF6846024CC829500032329 /* SceneDelegate.swift */,
@@ -217,10 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E02B9E224CC951800282565 /* GithubFollower.swift in Sources */,
 				1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */,
 				1E02B9BF24CC909F00282565 /* GFButton.swift in Sources */,
 				1E02B9D624CC944300282565 /* MainTabBarController.swift in Sources */,
 				1E02B9D024CC935600282565 /* GFImages.swift in Sources */,
+				1E02B9E024CC951800282565 /* GithubUser.swift in Sources */,
 				1E02B9D824CC945E00282565 /* SearchViewController.swift in Sources */,
 				1E02B9C224CC909F00282565 /* GFCircleButton.swift in Sources */,
 				1E02B9C324CC909F00282565 /* GFFavoriteButton.swift in Sources */,
@@ -228,6 +247,7 @@
 				1E02B9C924CC91FB00282565 /* GFCollectionView.swift in Sources */,
 				1E02B9CA24CC91FB00282565 /* GFTextField.swift in Sources */,
 				1E02B9C124CC909F00282565 /* GFLoadingOverlayView.swift in Sources */,
+				1E02B9E124CC951800282565 /* GithubProfile.swift in Sources */,
 				1E02B9D324CC935600282565 /* GFColors.swift in Sources */,
 				1E02B9D124CC935600282565 /* GFBezierPaths.swift in Sources */,
 				1E02B9CB24CC91FB00282565 /* GFErrorMessageView.swift in Sources */,
