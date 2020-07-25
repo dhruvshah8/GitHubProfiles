@@ -22,6 +22,9 @@
 		1E02B9D124CC935600282565 /* GFBezierPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9CD24CC935500282565 /* GFBezierPaths.swift */; };
 		1E02B9D224CC935600282565 /* GFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9CE24CC935500282565 /* GFViewController.swift */; };
 		1E02B9D324CC935600282565 /* GFColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9CF24CC935600282565 /* GFColors.swift */; };
+		1E02B9D624CC944300282565 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9D524CC944300282565 /* MainTabBarController.swift */; };
+		1E02B9D824CC945E00282565 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9D724CC945E00282565 /* SearchViewController.swift */; };
+		1E02B9DB24CC949800282565 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9DA24CC949800282565 /* FavoritesViewController.swift */; };
 		1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6845E24CC829500032329 /* AppDelegate.swift */; };
 		1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6846024CC829500032329 /* SceneDelegate.swift */; };
 		1EF6846824CC829A00032329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6846724CC829A00032329 /* Assets.xcassets */; };
@@ -44,6 +47,9 @@
 		1E02B9CD24CC935500282565 /* GFBezierPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFBezierPaths.swift; sourceTree = "<group>"; };
 		1E02B9CE24CC935500282565 /* GFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFViewController.swift; sourceTree = "<group>"; };
 		1E02B9CF24CC935600282565 /* GFColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFColors.swift; sourceTree = "<group>"; };
+		1E02B9D524CC944300282565 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1E02B9D724CC945E00282565 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1E02B9DA24CC949800282565 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		1EF6845B24CC829500032329 /* GitHub+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF6845E24CC829500032329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF6846024CC829500032329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +91,24 @@
 			path = "Custom UI Components";
 			sourceTree = "<group>";
 		};
+		1E02B9D424CC943300282565 /* View Controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				1E02B9D924CC948300282565 /* Favourites  */,
+				1E02B9D524CC944300282565 /* MainTabBarController.swift */,
+				1E02B9D724CC945E00282565 /* SearchViewController.swift */,
+			);
+			path = "View Controllers ";
+			sourceTree = "<group>";
+		};
+		1E02B9D924CC948300282565 /* Favourites  */ = {
+			isa = PBXGroup;
+			children = (
+				1E02B9DA24CC949800282565 /* FavoritesViewController.swift */,
+			);
+			path = "Favourites ";
+			sourceTree = "<group>";
+		};
 		1EF6845224CC829500032329 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +128,7 @@
 		1EF6845D24CC829500032329 /* GitHub+ */ = {
 			isa = PBXGroup;
 			children = (
+				1E02B9D424CC943300282565 /* View Controllers  */,
 				1EF6845E24CC829500032329 /* AppDelegate.swift */,
 				1EF6846024CC829500032329 /* SceneDelegate.swift */,
 				1E02B9B524CC905200282565 /* Custom UI Components */,
@@ -194,7 +219,9 @@
 			files = (
 				1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */,
 				1E02B9BF24CC909F00282565 /* GFButton.swift in Sources */,
+				1E02B9D624CC944300282565 /* MainTabBarController.swift in Sources */,
 				1E02B9D024CC935600282565 /* GFImages.swift in Sources */,
+				1E02B9D824CC945E00282565 /* SearchViewController.swift in Sources */,
 				1E02B9C224CC909F00282565 /* GFCircleButton.swift in Sources */,
 				1E02B9C324CC909F00282565 /* GFFavoriteButton.swift in Sources */,
 				1E02B9BE24CC909F00282565 /* GFLabel.swift in Sources */,
@@ -208,6 +235,7 @@
 				1E02B9C824CC91FB00282565 /* GFImageView.swift in Sources */,
 				1E02B9D224CC935600282565 /* GFViewController.swift in Sources */,
 				1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */,
+				1E02B9DB24CC949800282565 /* FavoritesViewController.swift in Sources */,
 				1E02B9BD24CC909F00282565 /* GFCustomPathButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
