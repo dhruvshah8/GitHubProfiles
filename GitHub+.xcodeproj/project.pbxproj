@@ -43,6 +43,13 @@
 		1E02BA0024CC962900282565 /* UICollectionView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9F124CC962900282565 /* UICollectionView + Extensions.swift */; };
 		1E02BA0124CC962900282565 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9F224CC962900282565 /* UIView + Extensions.swift */; };
 		1E02BA0224CC962900282565 /* UIBezierPath + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02B9F324CC962900282565 /* UIBezierPath + Extensions.swift */; };
+		1E02BA0A24CC96CC00282565 /* URL + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0324CC96CB00282565 /* URL + Extensions.swift */; };
+		1E02BA0B24CC96CC00282565 /* HTTPURLResponse + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0424CC96CB00282565 /* HTTPURLResponse + Extensions.swift */; };
+		1E02BA0C24CC96CC00282565 /* NSAttributedString + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0524CC96CB00282565 /* NSAttributedString + Extensions.swift */; };
+		1E02BA0D24CC96CC00282565 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0624CC96CB00282565 /* String + Extensions.swift */; };
+		1E02BA0E24CC96CC00282565 /* KeyboardNotificationUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0724CC96CB00282565 /* KeyboardNotificationUserInfo.swift */; };
+		1E02BA0F24CC96CC00282565 /* Date + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0824CC96CC00282565 /* Date + Extensions.swift */; };
+		1E02BA1024CC96CC00282565 /* Collection + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02BA0924CC96CC00282565 /* Collection + Extensions.swift */; };
 		1EF6845F24CC829500032329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6845E24CC829500032329 /* AppDelegate.swift */; };
 		1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6846024CC829500032329 /* SceneDelegate.swift */; };
 		1EF6846824CC829A00032329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6846724CC829A00032329 /* Assets.xcassets */; };
@@ -86,6 +93,13 @@
 		1E02B9F124CC962900282565 /* UICollectionView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView + Extensions.swift"; sourceTree = "<group>"; };
 		1E02B9F224CC962900282565 /* UIView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
 		1E02B9F324CC962900282565 /* UIBezierPath + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath + Extensions.swift"; sourceTree = "<group>"; };
+		1E02BA0324CC96CB00282565 /* URL + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL + Extensions.swift"; sourceTree = "<group>"; };
+		1E02BA0424CC96CB00282565 /* HTTPURLResponse + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse + Extensions.swift"; sourceTree = "<group>"; };
+		1E02BA0524CC96CB00282565 /* NSAttributedString + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString + Extensions.swift"; sourceTree = "<group>"; };
+		1E02BA0624CC96CB00282565 /* String + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		1E02BA0724CC96CB00282565 /* KeyboardNotificationUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotificationUserInfo.swift; sourceTree = "<group>"; };
+		1E02BA0824CC96CC00282565 /* Date + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date + Extensions.swift"; sourceTree = "<group>"; };
+		1E02BA0924CC96CC00282565 /* Collection + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection + Extensions.swift"; sourceTree = "<group>"; };
 		1EF6845B24CC829500032329 /* GitHub+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF6845E24CC829500032329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF6846024CC829500032329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -218,6 +232,13 @@
 			isa = PBXGroup;
 			children = (
 				1E02B9E324CC962900282565 /* UI */,
+				1E02BA0924CC96CC00282565 /* Collection + Extensions.swift */,
+				1E02BA0824CC96CC00282565 /* Date + Extensions.swift */,
+				1E02BA0424CC96CB00282565 /* HTTPURLResponse + Extensions.swift */,
+				1E02BA0724CC96CB00282565 /* KeyboardNotificationUserInfo.swift */,
+				1E02BA0524CC96CB00282565 /* NSAttributedString + Extensions.swift */,
+				1E02BA0624CC96CB00282565 /* String + Extensions.swift */,
+				1E02BA0324CC96CB00282565 /* URL + Extensions.swift */,
 				1EF6846724CC829A00032329 /* Assets.xcassets */,
 				1EF6846924CC829A00032329 /* LaunchScreen.storyboard */,
 				1EF6846C24CC829A00032329 /* Info.plist */,
@@ -312,6 +333,7 @@
 				1E02B9C924CC91FB00282565 /* GFCollectionView.swift in Sources */,
 				1E02BA0024CC962900282565 /* UICollectionView + Extensions.swift in Sources */,
 				1E02B9FD24CC962900282565 /* UITableView + Extensions.swift in Sources */,
+				1E02BA0A24CC96CC00282565 /* URL + Extensions.swift in Sources */,
 				1E02B9CA24CC91FB00282565 /* GFTextField.swift in Sources */,
 				1E02B9F624CC962900282565 /* CGRect + Extensions.swift in Sources */,
 				1E02B9F924CC962900282565 /* HStackView.swift in Sources */,
@@ -320,6 +342,7 @@
 				1E02B9FA24CC962900282565 /* VStackView.swift in Sources */,
 				1E02B9D324CC935600282565 /* GFColors.swift in Sources */,
 				1E02B9D124CC935600282565 /* GFBezierPaths.swift in Sources */,
+				1E02BA0B24CC96CC00282565 /* HTTPURLResponse + Extensions.swift in Sources */,
 				1E02B9FF24CC962900282565 /* UITableViewCell + Extensions.swift in Sources */,
 				1E02B9CB24CC91FB00282565 /* GFErrorMessageView.swift in Sources */,
 				1E02B9C024CC909F00282565 /* GFEmptyStateView.swift in Sources */,
@@ -327,9 +350,14 @@
 				1E02B9D224CC935600282565 /* GFViewController.swift in Sources */,
 				1E02BA0124CC962900282565 /* UIView + Extensions.swift in Sources */,
 				1EF6846124CC829500032329 /* SceneDelegate.swift in Sources */,
+				1E02BA1024CC96CC00282565 /* Collection + Extensions.swift in Sources */,
+				1E02BA0D24CC96CC00282565 /* String + Extensions.swift in Sources */,
+				1E02BA0C24CC96CC00282565 /* NSAttributedString + Extensions.swift in Sources */,
 				1E02B9F724CC962900282565 /* CGPath + Extensions.swift in Sources */,
 				1E02B9FB24CC962900282565 /* CGSize + Extensions.swift in Sources */,
 				1E02B9DB24CC949800282565 /* FavoritesViewController.swift in Sources */,
+				1E02BA0F24CC96CC00282565 /* Date + Extensions.swift in Sources */,
+				1E02BA0E24CC96CC00282565 /* KeyboardNotificationUserInfo.swift in Sources */,
 				1E02B9BD24CC909F00282565 /* GFCustomPathButton.swift in Sources */,
 				1E02B9FE24CC962900282565 /* SpacerView.swift in Sources */,
 				1E02B9F524CC962900282565 /* CALayer + Extensions.swift in Sources */,
