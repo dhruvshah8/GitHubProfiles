@@ -17,25 +17,27 @@
 - [x] SafariViewController
 - [x] Persistence
 
-#### Username Input: 
-   ![](https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/screen1.gif?raw=true)
+## Username Input: 
+   <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/screen1.gif?raw=true" width="300"> |
 
-#### Followers Page: 
-
+## Followers Page: 
+- Display user's github profile using SFSafariViewController
 
 | Search Collection View                     | Current User Details                          | View Friend's Followers                       |
 | ------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
 | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/collectionSearch.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/userProfile.gif?raw=true" width="300">| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/friendsFollowers.gif?raw=true" width="300"> |
 
 
-### Favorites Page 
+## Favorites Page 
+- UICollectionViewDiffableDataSource to filter users using search String 
+- Bezier Path animation to hightlight/unselect star to favourite user (Core Animation)
 
 | Add Friends to Favourites                  | Edit & Delete                                 | 
 | ------------------------------------------ | --------------------------------------------- |  
 | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/addToFavourtie.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/Favorites-edit.gif?raw=true" width="300">|
 
 
-### Error Handling 
+## Error Handling 
 
 | No input                                   | Invalid inputs & Requests Errors              | Empty States.                                 |
 | ------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
