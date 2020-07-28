@@ -24,4 +24,4 @@
 
 | iPhone X                                   | iPhone SE                                     |
 | ------------------------------------------ | --------------------------------------------- |
-| ![](/ScreenShots/ScreenRecordings/collectionSearch.gif) | ![ ](ScreenShots/Screen Recordings/collectionSearch.gif) |
+| ![](/ScreenShots/ScreenRecordings/collectionSearch.gif) | ![](ScreenShots/Screen Recordings/collectionSearch.gif) |
