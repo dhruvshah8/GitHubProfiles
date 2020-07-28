@@ -25,5 +25,12 @@
 
 | iPhone X                                   | iPhone SE                                     | Friends Followers                             |
 | ------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
-| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/collectionSearch.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/userProfile.gif?raw=true" width="300">| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/friendsFollowers.gif?raw=true" width="300">
+| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/collectionSearch.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/userProfile.gif?raw=true" width="300">| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/friendsFollowers.gif?raw=true" width="300"> |
+
+
+###Favorites Page 
+
+| iPhone X                                   | iPhone SE                                     | 
+| ------------------------------------------ | --------------------------------------------- |  
+| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/addToFavourites.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/Favorites-edit.gif?raw=true" width="300">|
 
