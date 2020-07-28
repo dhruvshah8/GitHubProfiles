@@ -22,6 +22,3 @@
 
 #### Followers Page: 
 
-| iPhone X                                   | iPhone SE                                     |
-| ------------------------------------------ | --------------------------------------------- |
-| ![](/ScreenShots/ScreenRecordings/collectionSearch.gif) | ![](ScreenShots/ScreenRecordings/collectionSearch.gif) |
