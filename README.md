@@ -44,4 +44,4 @@
 | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/error.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/error2.jpg?raw=true" width="300">| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/emptyState.jpg?raw=true" width="300"> |
 
 ## Dark Mode Compatability 
-<img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/darkMode.png?raw=true" width="500">
+<img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/darkMode.png?raw=true" width="800">
