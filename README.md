@@ -18,7 +18,7 @@
 - [x] Persistence
 
 #### Username Input: 
-![ ](https://raw.githubusercontent.com/dhruvshah8/GitHubProfiles/master/ScreenShots/Screen%20Recordings/screen1.gif?token=AHH3VN44ZWGFWLT35BWLLES7D6V3Q)
+ ![](ScreenShots/ScreenRecordings/screen1.gif)
 
 #### Followers Page: 
 
