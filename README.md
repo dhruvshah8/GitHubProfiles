@@ -23,21 +23,21 @@
 #### Followers Page: 
 
 
-| iPhone X                                   | iPhone SE                                     | Friends Followers                             |
+| Search Collection View                     | Current User Details                          | View Friend's Followers                       |
 | ------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
 | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/collectionSearch.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/userProfile.gif?raw=true" width="300">| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/friendsFollowers.gif?raw=true" width="300"> |
 
 
 ### Favorites Page 
 
-| iPhone X                                   | iPhone SE                                     | 
+| Add Friends to Favourites                  | Edit & Delete                                 | 
 | ------------------------------------------ | --------------------------------------------- |  
 | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/addToFavourtie.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/Favorites-edit.gif?raw=true" width="300">|
 
 
 ### Error Handling 
 
-| iPhone X                                   | iPhone SE                                     | Friends Followers                             |
+| No input                                   | Invalid inputs & Requests Errors              | Empty States.                                 |
 | ------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
 | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/error.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/error2.jpg?raw=true" width="300">| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/emptyState.jpg?raw=true" width="300"> |
 
