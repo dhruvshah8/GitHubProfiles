@@ -2,7 +2,7 @@
 
 ### A App to View GitHub Profiles and friends. 
 
-![ ](https://raw.githubusercontent.com/dhruvshah8/GitHubProfiles/master/ScreenShots/MainScreenOverview.png?token=AHH3VN5IAJWYBYHY4GFA4FK7D5KFQ)
+![ ](https://raw.githubusercontent.com/dhruvshah8/GitHubProfiles/master/ScreenShots/allScreens.png?token=AHH3VNZ4GB7LPAR76HW7SZ27D6VWE)
 
 #### Learning Goals 
 - [x] 100% ProgrammaticUI
