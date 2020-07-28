@@ -18,7 +18,7 @@
 - [x] Persistence
 
 #### Username Input: 
- ![](ScreenShots/ScreenRecordings/screen1.gif)
+   ![](ScreenShots/ScreenRecordings/screen1.gif)
 
 #### Followers Page: 
 
