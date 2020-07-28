@@ -3,7 +3,15 @@
 ### A App to View GitHub Profiles and friends. 
 
  ![](ScreenShots/allScreens.png)
-
+ 
+ #### How to Run
+ ``` 
+ git clone 
+ cd GitHubProfiles
+ open -a Xcode GitHub+.xcodeproj 
+ Build & Run 
+ ``` 
+ 
 #### Learning Goals 
 - [x] 100% ProgrammaticUI
 - [x] CollectionViews with the new DiffableDataSource
