@@ -39,5 +39,5 @@
 
 | iPhone X                                   | iPhone SE                                     | Friends Followers                             |
 | ------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
-| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/error.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/error2.jpg?raw=true" width="800">| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/emptyState.jpg?raw=true" width="300"> |
+| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/error.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/error2.jpg?raw=true" width="300">| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/emptyState.jpg?raw=true" width="300"> |
 
