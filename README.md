@@ -6,7 +6,7 @@
  
  #### How to Run
  ``` 
- git clone 
+ git clone git@github.com:dhruvshah8/GitHubProfiles.git
  cd GitHubProfiles
  open -a Xcode GitHub+.xcodeproj 
  Build & Run 
