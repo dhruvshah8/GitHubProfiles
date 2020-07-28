@@ -32,5 +32,5 @@
 
 | iPhone X                                   | iPhone SE                                     | 
 | ------------------------------------------ | --------------------------------------------- |  
-| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/addToFavourites.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/Favorites-edit.gif?raw=true" width="300">|
+| <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/addToFavourite.gif?raw=true" width="300"> | <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/Screen%20Recordings/Favorites-edit.gif?raw=true" width="300">|
 
