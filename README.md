@@ -55,5 +55,5 @@
 <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/darkMode.png?raw=true" width="800">
 
 ### Credits 
-Assets used from: 
+Assets used from: https://seanallen.co/ 
 However all code is original 
