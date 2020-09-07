@@ -53,3 +53,7 @@
 
 ## Dark Mode Compatability 
 <img src="https://github.com/dhruvshah8/GitHubProfiles/blob/master/ScreenShots/darkMode.png?raw=true" width="800">
+
+### Credits 
+Assets used from: 
+However all code is original 
